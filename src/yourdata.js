@@ -30,7 +30,7 @@ export default {
     //Line 2 For Header
     "Noodles Ambassador",
     //Line 3 For Header
-    "Igbo boy",
+    "Technical Author",
   ],
   //   Header Paragraph
   headerParagraph:
@@ -189,7 +189,7 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Have an interesting project?",
+  promotionHeading: "Hiring?",
   promotionPara:
     "I'm always open to interesting oportuinities. If you would like to talk to me about an offer around, Fullstack web development, Mobile, Developer Relations, and Frontend web development, Please reach out to me through my email or on twitter. If you're looking at my website because you want to hire me and asked me to share my portfolio with you, I hope you're convinced and contact me to collect your money :)",
   // End Promotion Section -----------------
@@ -200,10 +200,6 @@ export default {
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/Chiagozielam" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
     {
       img: dribbbleIcon,
       url: "",
