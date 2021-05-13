@@ -11,7 +11,7 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            Portfolio.
+            Daniel Don - spillcode
           </div>
           <div className="links-wrapper">
             <button onClick={() => scrollTo("#work")}>Work</button>

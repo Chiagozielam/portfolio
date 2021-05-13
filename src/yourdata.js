@@ -3,35 +3,41 @@ import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
 import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import reactNativeIcon from "./images/react-native.png"
+import nodejsIcon from "./images/nodejs-icon.svg"
+import graphqlIcon from "./images/graphql-logo.svg"
+import mongodbIcon from "./images/mongodb.svg"
+import figmaIcon from "./images/figma.svg"
+import typescriptIcon from "./images/typescript.svg"
+import coreldrawIcon from "./images/coreldraw.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import twitterIcon from "./images/twitter.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Daniel Don",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Software crafter",
     //Line 2 For Header
-    "products, brands,",
+    "Noodles Ambassador",
     //Line 3 For Header
-    "and experience",
+    "Igbo boy",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "In my mind I'm fun to be around. I thought I was shy but I'm not. Love teaching people about tech. Software crafter for the web and mobile.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "iamdanieldon@gmail.com",
 
   // End Header Details -----------------------
 
@@ -113,13 +119,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "I am a software developer with 3+ years experience working with diverse kinds of people working on projects that genuinely excited us. I've been contributing to communities sharing my knowledge and helping to see others grow since 2019, and I've met amazing people so far while doing this.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "After organizing sessions where I helped people get started with tech for some time, I've gone ahead to start my own program called frontendmentorship, a paid program that will give you 100X comfortable start in frontend web development by giving you access to knowledge-packed lessons teaching you from absolute scratch, to building/replicating popular websites together with you, while giving you life-time access to a community of like-minded people who can answer your questions when you run into issues.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "I like the life of freedom and have mostly worked with remote teams throughout my career (Open to onsite flexible opportunities also). Another thing I also like is snacks: Icecream, biscuit: I love biscuits, Bread, Burger, any sweet one. Food makes me happy.. Okay.. People do too, but food makes me happy a lot. Sneakers, Shorts, fashion, etc.. I like good things and love reading things on twitter.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "https://res.cloudinary.com/dcft8yhab/image/upload/c_fit,h_1500,w_334/v1620864155/Daniel_Don.jpg",
 
   //   End About Section ---------------------
 
@@ -131,61 +137,84 @@ export default {
     {
       img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Html",
     },
     {
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "CSS",
     },
     {
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "JavaScript",
     },
     {
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "ReactJS",
     },
     {
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: reactNativeIcon,
+      para: "React Native",
     },
     {
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: nodejsIcon,
+      para: "Node JS",
     },
+    {
+      img: graphqlIcon,
+      para: "GraphQL",
+    },
+    {
+      img: typescriptIcon,
+      para: "TypeScript",
+    },
+    {
+      img: mongodbIcon,
+      para: "Mongo DB",
+    },
+    {
+      img: figmaIcon,
+      para: "Figma",
+    },
+    {
+      img: coreldrawIcon,
+      para: "CorelDraw",
+    },
+    
   ],
 
   // End Skills Section --------------------------
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
+  promotionHeading: "Have an interesting project?",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I'm always open to interesting oportuinities. If you would like to talk to me about an offer around, Fullstack web development, Mobile, Developer Relations, and Frontend web development, Please reach out to me through my email or on twitter. If you're looking at my website because you want to hire me and asked me to share my portfolio with you, I hope you're convinced and contact me to collect your money :)",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Let's work together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/Chiagozielam" },
     {
       img: codepenIcon,
       url: "https://www.codepen.com/",
     },
     {
       img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+      url: "",
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/iamdanieldon",
+    },
+    {
+      img: twitterIcon,
+      url: "https://www.twitter.com/iamdanieldon",
     },
   ],
 
